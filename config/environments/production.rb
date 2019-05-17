@@ -1,6 +1,8 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # define default URL since the 'devise' gem may need it
+  config.action_mailer.default_url_options = { host: 'https://flixter-niraj-jain.herokuapp.com/'}
   # Code is not reloaded between requests.
   config.cache_classes = true
 

@@ -78,3 +78,9 @@ gem 'devise'
 
 # for uploading photos/images
 gem 'carrierwave', '~> 1.0'
+
+# prep for using AWS
+gem 'figaro'
+
+# to use AWS S3
+gem 'fog-aws'

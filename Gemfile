@@ -75,3 +75,6 @@ end
 gem 'simple_form'
 
 gem 'devise'
+
+# for uploading photos/images
+gem 'carrierwave', '~> 1.0'

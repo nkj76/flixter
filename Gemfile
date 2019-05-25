@@ -77,13 +77,15 @@ gem 'simple_form'
 gem 'devise'
 
 # for uploading photos/images
-gem 'carrierwave', '~> 1.0'
+
 
 # prep for using AWS
 gem 'figaro'
 
 # to use AWS S3
-gem 'fog-aws'
+# gem 'fog-aws'
 
 # for image resizing
+gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
+gem 'carrierwave-aws'

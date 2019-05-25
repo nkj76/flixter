@@ -84,3 +84,6 @@ gem 'figaro'
 
 # to use AWS S3
 gem 'fog-aws'
+
+# for image resizing
+gem 'mini_magick'

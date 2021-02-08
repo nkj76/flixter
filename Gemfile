@@ -86,6 +86,6 @@ gem 'figaro'
 # gem 'fog-aws'
 
 # for image resizing
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'mini_magick'
 gem 'carrierwave-aws'
